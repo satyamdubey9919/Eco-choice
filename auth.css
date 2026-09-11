@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -98,3 +99,105 @@ button:hover {
     cursor: pointer;
     font-weight: bold;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #e7ffe7; /* eco theme */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* container */
+.container {
+    width: 360px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Hide forms initially */
+.form {
+    display: none;
+}
+
+.form.active {
+    display: block;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #068f45;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 25px;
+}
+
+/* Input Box */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    color: #05632f;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #91ffb2;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-group input:focus {
+    border-color: #00c466;
+    outline: none;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background: #06c25f;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #049d4c;
+}
+
+/* Switch links */
+.switch {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.switch span {
+    color: #04a04f;
+    cursor: pointer;
+    font-weight: bold;
+}
+>>>>>>> 0f9667c048ecc0ad60a1b7c88c6f6d910a90f50f
